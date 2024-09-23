@@ -20,7 +20,7 @@ st.caption('캡션은 짧은 설명을 추가하는 것!')
 
 
 sample_code = '''
-def fimction():
+def function():
     print("life is too short,you need the python")
 '''
 st.code(samaple_code, language="python")
