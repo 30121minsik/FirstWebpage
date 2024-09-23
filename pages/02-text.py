@@ -26,5 +26,5 @@ def function():
 st.code(sample_code, language="python")
 
 
-st.text('일반적인 텍스트를 입력해 보았습니다.')
+st.text('이 커뮤니티는 인스타그램을 뛰어넘을 것입니다.')
         
