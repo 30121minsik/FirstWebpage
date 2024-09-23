@@ -11,7 +11,7 @@ st.title('스마일 :sunglasses:')
 st.header('대한민국 최고의 커뮤니티 :sparkles:')
 
 
-st.subheader('subheader는 대한민국의 자랑')
+st.subheader(' 대한민국의 자랑')
 
 
 
