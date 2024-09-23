@@ -8,7 +8,7 @@ st.title('대한민국 1등 커뮤니티')
 st.title('스마일 :sunglasses:')
 
 
-st.header('헤던는 섹션의 제목 :sparkles:')
+st.header('대한민국 최고의 커뮤니티 :sparkles:')
 
 
 st.subheader('subheader는 섹션의 부제목')
