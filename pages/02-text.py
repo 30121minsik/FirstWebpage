@@ -34,7 +34,7 @@ def function():
 st.code(sample_code, language="python")
 
 
-st.text('이 커뮤니티는 인스타그램을 뛰어넘을 것입니다.')
+st.text('제 목표는 대한민국 정부 공식 사이트로 지정되는겁니다.')
 
 
 st.markdown('streamlit은 **마크다운 문법을 지원 **합니다.')
