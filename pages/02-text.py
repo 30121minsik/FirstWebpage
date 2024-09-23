@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title('3학년 2반 이윤후를 소개합니다')
+st.title('대한민국 1등 커뮤니티')
 
 
 
