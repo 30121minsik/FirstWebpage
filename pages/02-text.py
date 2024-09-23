@@ -23,7 +23,7 @@ st.caption('대한민국 시민인걸 자랑스럽게 생각하세요!')
 
 sample_code = '''
 def function():
-    print("life is too short,you need the python")
+    print("life is too short,you should go korea")
 '''
 st.code(sample_code, language="python")
 
