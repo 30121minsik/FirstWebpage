@@ -29,8 +29,8 @@ if agree:
   elif mbti == 'ENFP':
     st.write('당신은 :green[농구팬] 이시네요')
   else:
-    st.write("당신은 :red[배구팬]: 이시네요)
+    st.write("당신은 :red[배구팬]: 이시네요')
     else
-             st.write("당신은 :yellow[복싱팬]: 이시네요)
+             st.write("당신은 :yellow[복싱팬]: 이시네요')
     
     
