@@ -37,7 +37,7 @@ title = st.text_input(
 )
 st.write(f'당신이 선택한 스포츠: :violet[{title}]')
 values = st.slider(
-  '스포츠를 정할수있어요:sparkles:',
+  '스포츠를 얼마나 사랑하나요:sparkles:',
   0.0, 100.0, (25.0 , 75.0))
 st.write('선택 범위:',values)
     
