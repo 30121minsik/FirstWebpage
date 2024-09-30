@@ -31,6 +31,13 @@ if agree:
     st.write('당신은 :green[농구팬] 이시네요')
   else sports =='메이웨더':
     st.write('당신은 :red[복싱팬]: 이시네요')
-   
+title = st.text_input(
+  label='가고 싶은 여행지가 있나요?',
+  placeholder='여행지를 입력해 주세요'
+)
+st.write(f'당신이 선택한 여행지: :violet[{title}]')
+values = st.slider(
+  '범위의 값을 다음과 같이 지정할 수 있어요:sparkles:',
+  st.write('선택 범위:',values)
     
     
