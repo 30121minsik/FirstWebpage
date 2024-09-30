@@ -12,8 +12,8 @@ dataframe = pd.Dataframe({
   'second column': [10, 20, 30, 40]
 })
 st.download_button(
-  label='CSV로 성적표 다운로드',
-  data=dataframe.to_csv(), 
-  file_name='sample.csv',
-  mime='text/csv'
+    label='CSV로 성적표 다운로드',
+    data=dataframe.to_csv(), 
+    file_name='sample.csv',
+    mime='text/csv'
 )                 
