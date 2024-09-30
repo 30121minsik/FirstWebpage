@@ -21,14 +21,14 @@ st.download_button(
 agree =st.checkbox('동의 하십니까?')
 if agree:
   st.write('동의 해주셔서 감사합니다 :100:')
-  mbti =st.radio(
+  sports =st.radio(
   '당신이 좋아하는 선수는 누구인가요?',
   ('손흥민','르브론 제임스','메이웨더'))
-  if mbti == 'ISTJ':
+  if sports == '손흥민':
     st.write('당신은 :blue[축구팬] 이시네요')
-  elif mbti == 'ENFP':
+  elif sports == '르브론 제임스':
     st.write('당신은 :green[농구팬] 이시네요')
-  else:
+  else sports =='메이웨더':
     st.write('당신은 :red[복싱팬]: 이시네요')
    
     
