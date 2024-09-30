@@ -12,7 +12,7 @@ dataframe = pd.dataframe({
   'second column': [10, 20, 30, 40]
                      })
 st.download_button(
-  label='csv로 성적표 다운로드',
+  label='CSV로 성적표 다운로드',
   data=dataframe.to_csv(), 
   file_name='sample.csv',
   mime='text/csv'
