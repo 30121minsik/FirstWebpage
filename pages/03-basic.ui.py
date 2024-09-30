@@ -21,7 +21,7 @@ st.download_button(
 agree =st.checkbox('동의 하십니까?')
 if agree:
   st.write('동의 해주셔서 감사합니다 :100:')
-  sports =st.radio(
+  sports = st.radio(
   '당신이 좋아하는 선수는 누구인가요?',
   ('손흥민','르브론 제임스','메이웨더'))
   if sports == '손흥민':
