@@ -21,7 +21,7 @@ st.download_button(
 agree =st.checkbox('동의 하십니까?')
 if agree:
   st.write('동의 해주셔서 감사합니다 :100:')
-  mbti =dt.radio(
+  mbti =st.radio(
   '당신의 MBTI는 무엇입니까?',
   ('ISTJ','ENFP','선택지 없음'))
   if mbti == 'ISTJ':
