@@ -29,7 +29,7 @@ if agree:
     st.write('당신은 :blue[축구팬] 이시네요')
   elif sports == '르브론 제임스':
     st.write('당신은 :green[농구팬] 이시네요')
-  else sports =='메이웨더':
+  elif sports =='메이웨더':
     st.write('당신은 :red[복싱팬]: 이시네요')
 title = st.text_input(
   label='가고 싶은 여행지가 있나요?',
