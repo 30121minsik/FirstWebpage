@@ -16,7 +16,8 @@ def generate_lotto():
     lotto.sort()
     return lotto
     button = st.button('로또를 생성해 주세요!')
-    if button:
-       for i in range(1,6):
-          st.subheader(f'{i}. 행운의 번호: :green[{generate_lotto()}]')
-      st.write(f"생선된 시각: {datetime.datetime.now().strftime('%y-%m-%d %H:%M')}")
+   if button:
+    for i in range(1, 6):
+        st.subheader(f'{i}. 행운의 번호: :green[{generate_lotto()}]')
+    
+    st.write(f"생성된 시각: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
